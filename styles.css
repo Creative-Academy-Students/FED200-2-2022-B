@@ -1,3 +1,14 @@
+@import 'sections/1-header/styles.css';
+@import 'sections/2-hero/styles.css';
+@import 'sections/3-levelup/styles.css';
+@import 'sections/4-cards/styles.css';
+@import 'sections/5-customize/styles.css';
+@import 'sections/6-pricing/styles.css';
+@import 'sections/7-subscribe/styles.css';
+@import 'sections/8-footer/styles.css';
+
+
+
 * {
   box-sizing: border-box;
 }
