@@ -1,14 +1,15 @@
-@import 'sections/1-header/styles.css';
-@import 'sections/2-hero/styles.css';
-@import 'sections/3-levelup/styles.css';
-@import 'sections/4-cards/styles.css';
-@import 'sections/5-customize/styles.css';
-@import 'sections/6-pricing/styles.css';
-@import 'sections/7-subscribe/styles.css';
-@import 'sections/8-footer/styles.css';
+@import "sections/1-header/styles.css";
+@import "sections/2-hero/styles.css";
+@import "sections/3-levelup/styles.css";
+@import "sections/4-cards/styles.css";
+@import "sections/5-customize/styles.css";
+@import "sections/6-pricing/styles.css";
+@import "sections/7-subscribe/styles.css";
+@import "sections/8-footer/styles.css";
 
-
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Merriweather:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 * {
   box-sizing: border-box;
 }
