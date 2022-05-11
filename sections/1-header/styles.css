@@ -1,9 +1,32 @@
-.wordmark {
-    font-family: 'Exo 2', sans-serif;
-    color:#34332f;
-    font-size: 28px;
+.header {
+  background-color: #fdfaf3;
 }
 
 .list {
+  display: flex;
+  flex-direction: row;
+}
 
+.wordmark {
+  font-family: "Exo 2", sans-serif;
+  color: #34332f;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.nav-element {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #34332f;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.nav-button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #fdfaf3;
+  font-size: 16px;
+  background-color: #34332f;
+  text-decoration: none;
 }
