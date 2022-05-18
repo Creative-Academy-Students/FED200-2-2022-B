@@ -19,13 +19,6 @@ body {
   background-color: #fefdf9;
 }
 
-.wordmark {
-  font-family: "Exo 2", sans-serif;
-  color: #34332f;
-  font-size: 28px;
-  text-decoration: none;
-}
-
 h1 {
   font-family: "Merriweather", serif;
   font-weight: 700;
@@ -77,6 +70,8 @@ p {
   border-color: #34332f;
   border: solid;
   border-radius: 8px;
+  padding: 16px 42px;
+  justify-content: center;
 }
 
 .secondary-button {
@@ -88,4 +83,13 @@ p {
   border-color: #34332f;
   border: solid;
   border-radius: 8px;
+  padding: 16px 42px;
+  justify-content: center;
 }
+
+.logo-homelink{
+  text-decoration: none;
+  font-family: "Exo 2", sans-serif;
+  color: #34332f;
+  font-size: 28px;
+  text-decoration: none;

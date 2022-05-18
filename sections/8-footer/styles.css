@@ -1,27 +1,32 @@
 footer {
   background-color:  #fdfaf3;
-}
-
-.footer-wordmark {
-  font-family: "Exo 2";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8rem;
 }
 
 .socials-tray {
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .facebook {
+  padding: 1rem;
+  max-width: ;
 }
 
 .insta {
+  padding: 1rem;
 }
 
 .twitter {
+  padding: 1rem;
 }
 
 .linkedin {
+  padding: 1rem;
 }
