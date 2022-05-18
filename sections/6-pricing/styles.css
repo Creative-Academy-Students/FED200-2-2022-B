@@ -1,0 +1,31 @@
+.body2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #34332f;
+  font-size: 1rem;
+}
+
+.pricetag {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #34332f;
+  font-size: 4rem;
+}
+
+.pricing {
+}
+
+.pricecard-container {
+}
+
+.pricecard-beige {
+  background-color: #fbf5e7;
+  color: #34332f;
+  border-radius: 0.5rem;
+}
+
+.pricecard-green {
+  background-color: #c5f1d6;
+  color: #34332f;
+  border-radius: 0.5rem;
+}

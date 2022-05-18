@@ -1,10 +1,17 @@
-.footer {
+footer {
+  background-color:  #fdfaf3;
 }
 
-.wordmark {
+.footer-wordmark {
+  font-family: "Exo 2";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 34px;
 }
 
 .socials-tray {
+
 }
 
 .facebook {

@@ -3,3 +3,16 @@
     display: flex;
     flex-direction: row;
 }
+
+.levelup-left{
+max-width: 50%;
+
+}
+
+.levelup-img {
+max-width:100%;
+}
+
+.levelup-text{
+max-width:50%;
+}

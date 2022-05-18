@@ -22,13 +22,3 @@
     color: #34332f; 
 }
 
-.primary-button {
-    font-family: 'Merriweather', serif;
-    font-size: 20;
-    font-weight: 700;
-    color: #fdfaf3; 
-    background-color: #34332f;
-    border-color: #34332f;
-    border: solid;
-    border-radius: 12px;
-}

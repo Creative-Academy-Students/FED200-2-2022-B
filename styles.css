@@ -16,4 +16,76 @@
 
 body {
   margin: 0;
+  background-color: #fefdf9;
+}
+
+.wordmark {
+  font-family: "Exo 2", sans-serif;
+  color: #34332f;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #34332f;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #34332f;
+  font-size: 2.5rem;
+}
+
+.h2-light {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #fdfaf3;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #34332f;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #34332f;
+  font-size: 1.25rem;
+}
+
+.p-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #fdfaf3;
+  font-size: 1.25rem;
+}
+
+.primary-button {
+  font-family: "Merriweather", serif;
+  font-size: 20;
+  font-weight: 700;
+  color: #fdfaf3;
+  background-color: #34332f;
+  border-color: #34332f;
+  border: solid;
+  border-radius: 8px;
+}
+
+.secondary-button {
+  font-family: "Merriweather", serif;
+  font-size: 20;
+  font-weight: 700;
+  color: #34332f;
+  background-color: #fce7ae;
+  border-color: #34332f;
+  border: solid;
+  border-radius: 8px;
 }
