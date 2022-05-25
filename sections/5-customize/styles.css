@@ -1,0 +1,19 @@
+.customize{
+display: flex;
+flex-direction: row;
+padding: 6rem;
+align-items:center;
+}
+
+.customize-text{
+max-width: 60%;
+padding-right: 1rem;
+}
+
+.customize-right{
+max-width: 40%;
+}
+
+.customize-illustration{
+max-width: 100%;
+}

@@ -6,10 +6,9 @@
 @import "sections/6-pricing/styles.css";
 @import "sections/7-subscribe/styles.css";
 @import "sections/8-footer/styles.css";
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Merriweather:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Merriweather:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
 * {
   box-sizing: border-box;
 }
@@ -47,6 +46,13 @@ h3 {
   font-size: 1.8rem;
 }
 
+h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+  color: #34332f;
+  font-size: 1.2rem;
+}
+
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -60,6 +66,15 @@ p {
   color: #fdfaf3;
   font-size: 1.25rem;
 }
+
+.body2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #34332f;
+  font-size: 1rem;
+}
+
+
 
 .primary-button {
   font-family: "Merriweather", serif;
@@ -77,7 +92,7 @@ p {
 .secondary-button {
   font-family: "Merriweather", serif;
   font-size: 20;
-  font-weight: 700;
+  font-weight: 800;
   color: #34332f;
   background-color: #fce7ae;
   border-color: #34332f;
@@ -87,9 +102,10 @@ p {
   justify-content: center;
 }
 
-.logo-homelink{
+.logo-homelink {
   text-decoration: none;
   font-family: "Exo 2", sans-serif;
   color: #34332f;
   font-size: 28px;
   text-decoration: none;
+}

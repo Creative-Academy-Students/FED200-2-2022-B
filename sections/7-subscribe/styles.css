@@ -1,5 +1,15 @@
 .subscribe{
+    padding: 8rem 6rem;
+}
+
+
+.subscribe-block{
 background-color: #34332f;
+display: flex;
+flex-direction: column;
+padding: 6rem;
+align-items: center;
+justify-content:center;
 }
 
 .secondary-button{
