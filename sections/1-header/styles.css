@@ -1,5 +1,6 @@
 .header {
   background-color: #fdfaf3;
+  max-width: 100%;
 }
 
 nav {
@@ -8,11 +9,17 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 8rem;
+  max-width: 100%;
+}
+
+.logo-homelink{
+  max-width: 30%;
 }
 
 .list {
   display: flex;
   flex-direction: row;
+  max-width: 70%;
 }
 
 .nav-element {
@@ -22,6 +29,7 @@ nav {
   font-size: 16px;
   text-decoration: none;
   padding: 0.5rem 2rem;
+  max-width: 25%;
 }
 
 .nav-button {
@@ -34,4 +42,5 @@ nav {
   text-decoration: none;
   padding: 16px 42px;
   justify-content: center;
+  max-width: 25%;
 }
