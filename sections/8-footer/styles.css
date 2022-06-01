@@ -7,13 +7,12 @@ footer {
   padding: 1rem 8rem;
 }
 
-@media screen (min-width: 576px) {
+@media screen and (max-width: 576px) {
   footer {
     flex-direction: column;
     align-items: center;
   }
-  }
-
+}
 
 .socials-tray {
   display: flex;
