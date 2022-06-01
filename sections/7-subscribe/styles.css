@@ -1,17 +1,21 @@
-.subscribe{
-    padding: 8rem 6rem;
+.subscribe {
+  padding: 8rem 6rem;
 }
 
-
-.subscribe-block{
-background-color: #34332f;
-display: flex;
-flex-direction: column;
-padding: 6rem;
-align-items: center;
-justify-content:center;
+.subscribe-block {
+  background-color: #34332f;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.secondary-button{
+@media screen and (max-width: 900px) {
+.subscribe-block {
 
+
+}
 }

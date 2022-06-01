@@ -7,10 +7,10 @@ footer {
   padding: 1rem 8rem;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 900px) {
   footer {
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
   }
 }
 
@@ -21,19 +21,6 @@ footer {
   justify-content: space-between;
 }
 
-.facebook {
-  padding: 1rem;
-  max-width: ;
-}
-
-.insta {
-  padding: 1rem;
-}
-
-.twitter {
-  padding: 1rem;
-}
-
-.linkedin {
+.socials_icon {
   padding: 1rem;
 }

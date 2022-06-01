@@ -17,6 +17,21 @@
   flex-direction:row;
 }
 
+@media screen and (max-width: 900px){
+  .pricecard-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pricing{
+    padding: 2rem;
+  }
+}
+
+.ul{
+  text-align: left;
+}
+
 .pricecard-beige {
   background-color: #fbf5e7;
   color: #34332f;
@@ -24,6 +39,7 @@
   padding: 2rem;
   margin: 1rem;
   align-items: center;
+  text-align: center;
 }
 
 .pricecard-green {
@@ -33,4 +49,6 @@
   padding: 2rem;
   margin: 1rem;
   align-items: center;
+  text-align: center;
 }
+
