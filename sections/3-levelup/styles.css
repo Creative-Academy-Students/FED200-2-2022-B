@@ -1,11 +1,19 @@
 .levelup {
-    background-color: #fdfaf3;
     display: flex;
     flex-direction: row;
+    padding: 6rem;
+    align-items:center;
+    background-color: #fdfaf3;
 }
 
+
+.levelup-text{
+    max-width:60%;
+    padding-left: 3rem;
+    }
+
 .levelup-left{
-max-width: 50%;
+max-width: 40%;
 
 }
 
@@ -13,6 +21,13 @@ max-width: 50%;
 max-width:100%;
 }
 
-.levelup-text{
-max-width:50%;
-}
+
+
+@media screen and (max-width: 900px) {
+    .levelup {
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+    }
+    }

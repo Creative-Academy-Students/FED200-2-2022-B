@@ -23,8 +23,13 @@
     justify-content: center;
   }
 
+  .pricecard-beige {
+    list-style:  disc;
+  }
+
   .pricing{
     padding: 2rem;
+    text-align: center;
   }
 }
 

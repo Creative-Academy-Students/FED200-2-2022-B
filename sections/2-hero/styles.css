@@ -32,3 +32,15 @@ max-width: 100%;
     color: #34332f; 
 }
 
+
+@media screen and (max-width: 900px) {
+    .hero {
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+      padding: 3rem;
+    }
+    .hero-right {
+        padding: 1rem;}
+    }
