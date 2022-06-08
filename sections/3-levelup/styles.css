@@ -1,33 +1,29 @@
 .levelup {
-    display: flex;
-    flex-direction: row;
-    padding: 6rem;
-    align-items:center;
-    background-color: #fdfaf3;
+  display: flex;
+  flex-direction: row;
+  padding: 6rem;
+  align-items: center;
+  background-color: #fdfaf3;
 }
 
+.levelup-text {
+  max-width: 60%;
+  padding-left: 3rem;
+}
 
-.levelup-text{
-    max-width:60%;
-    padding-left: 3rem;
-    }
-
-.levelup-left{
-max-width: 40%;
-
+.levelup-left {
+  max-width: 40%;
 }
 
 .levelup-img {
-max-width:100%;
+  min-width: 100%;
 }
 
-
-
 @media screen and (max-width: 900px) {
-    .levelup {
-      flex-direction: column;
-      align-items: center;
-      justify-items: center;
-      text-align: center;
-    }
-    }
+  .levelup {
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+}

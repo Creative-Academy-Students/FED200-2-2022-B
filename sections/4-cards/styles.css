@@ -33,5 +33,6 @@
 
   .card-container{
     flex-direction: column;
+    padding: 0rem;
   }
 }

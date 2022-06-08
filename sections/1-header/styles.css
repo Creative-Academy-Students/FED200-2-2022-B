@@ -12,7 +12,27 @@ nav {
   max-width: 100%;
 }
 
-.logo-homelink{
+@media screen and (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-element {
+    max-width: 100%;
+  }
+
+  .nav-element {
+    max-width: 100%;
+  }
+
+  .list{
+    flex-direction: column;
+    max-width:100%;
+  }
+}
+.logo-homelink {
   max-width: 30%;
 }
 
@@ -20,6 +40,7 @@ nav {
   display: flex;
   flex-direction: row;
   max-width: 70%;
+  text-align: center;
 }
 
 .nav-element {
