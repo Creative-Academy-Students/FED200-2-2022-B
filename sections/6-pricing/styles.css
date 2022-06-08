@@ -1,4 +1,3 @@
-
 .pricetag {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -8,33 +7,40 @@
 
 .pricing {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   padding: 6rem;
 }
 
-.pricecard-container {
-  display: flex;
-  flex-direction:row;
-}
-
-@media screen and (max-width: 900px){
-  .pricecard-container{
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .pricecard-beige {
-    list-style:  disc;
-  }
-
-  .pricing{
+@media screen and (max-width: 900px) {
+  .pricing {
     padding: 2rem;
     text-align: center;
   }
 }
 
-.ul{
+.pricetag-list {
+  list-style: none;
   text-align: left;
+}
+
+@media screen and (max-width: 900px) {
+  .pricetag-list {
+    margin: 1rem;
+    text-align: center;
+    padding: 0rem;
+  }
+}
+
+.pricecard-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+  .pricecard-container {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .pricecard-beige {
@@ -47,6 +53,12 @@
   text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .pricecard-beige {
+    justify-content: center;
+  }
+}
+
 .pricecard-green {
   background-color: #c5f1d6;
   color: #34332f;
@@ -56,4 +68,3 @@
   align-items: center;
   text-align: center;
 }
-

@@ -6,19 +6,6 @@
   background-color: #fdfaf3;
 }
 
-.levelup-text {
-  max-width: 60%;
-  padding-left: 3rem;
-}
-
-.levelup-left {
-  max-width: 40%;
-}
-
-.levelup-img {
-  min-width: 100%;
-}
-
 @media screen and (max-width: 900px) {
   .levelup {
     flex-direction: column;
@@ -27,3 +14,31 @@
     text-align: center;
   }
 }
+
+.levelup-text {
+  width: 60%;
+  padding-left: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .levelup-text{
+    width: 100%;
+    padding: 0rem;
+  }
+  }
+
+.levelup-left {
+  width: 40%;
+}
+
+@media screen and (max-width: 900px) {
+.levelup-left{
+  width: 100%;
+}
+}
+
+.levelup-img {
+  width: 100%;
+}
+
+

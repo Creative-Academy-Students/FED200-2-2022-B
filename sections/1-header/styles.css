@@ -12,26 +12,6 @@ nav {
   max-width: 100%;
 }
 
-@media screen and (max-width: 900px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .nav-element {
-    max-width: 100%;
-  }
-
-  .nav-element {
-    max-width: 100%;
-  }
-
-  .list{
-    flex-direction: column;
-    max-width:100%;
-  }
-}
 .logo-homelink {
   max-width: 30%;
 }
@@ -39,8 +19,10 @@ nav {
 .list {
   display: flex;
   flex-direction: row;
+  align-items: center;
   max-width: 70%;
   text-align: center;
+  list-style: none;
 }
 
 .nav-element {
@@ -50,7 +32,7 @@ nav {
   font-size: 16px;
   text-decoration: none;
   padding: 0.5rem 2rem;
-  max-width: 25%;
+  white-space: nowrap;
 }
 
 .nav-button {
@@ -63,5 +45,25 @@ nav {
   text-decoration: none;
   padding: 16px 42px;
   justify-content: center;
-  max-width: 25%;
+  white-space: nowrap;
+  display: block;
+}
+
+
+@media screen and (max-width: 900px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-element {
+    max-width: 100%;
+    display: block;
+  }
+
+  .list{
+    flex-direction: column;
+    max-width:100%;
+  }
 }
