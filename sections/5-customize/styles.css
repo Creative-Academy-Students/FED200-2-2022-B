@@ -3,7 +3,8 @@ display: flex;
 flex-direction: row;
 padding: 6rem;
 align-items:center;
-background-color: #fdfaf3;;
+justify-content: center;
+background-color: #fdfaf3;
 }
 
 .customize-text{
